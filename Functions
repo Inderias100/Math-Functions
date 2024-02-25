@@ -12,3 +12,10 @@ def div(a,b):
 
 
 print("Working New Branch On Desktop! Fingers Crossed")
+
+
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return n * factorial(n-1)
